@@ -1,0 +1,144 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    /* font-size par défaut 16PX */
+}
+
+body {
+    line-height: 1;
+    font-family: Arial, Helvetica;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #b3b8cc;
+}
+
+
+/* Début Page */
+
+.page {
+    padding-top: 20%;
+}
+
+.page .ligne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produit {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-family: Arial, Helvetica;
+}
+
+
+/* Bouton plongée*/
+
+.presta_plongee {
+    background-color: #2ECBF6;
+    color: white;
+    padding: 5%;
+    margin: 5%;
+}
+
+
+/*Fin Page*/
+
+.button {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #34495e;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover {
+    background: #9C2F51;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity .4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#popup {
+    display: none;
+}
+
+
+/*Début Footer*/
+
+.footer {
+    background: #34495e;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: white;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+
+/*Fin Footer*/
