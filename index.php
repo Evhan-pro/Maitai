@@ -69,14 +69,12 @@ include('header.php')
             </div>
 
             <div class="produit">
-                <img src="https://www.bmc-switzerland.com/media/catalog/product/cache/db486834651b8299de17894045ea7cde/b/m/bmc-22-10503-008-bmc-fourstroke-01-one-mountain-bike-red-01.png" alt="">
                 <a href="#popup" class="button">En savoir +</a>
 
                 <div id="popup" class="overlay">
                     <div class="popup">
                         <h2>Nom produit</h2>
                         <a href="#" class="cross">&times;</a>
-                        <img src="https://www.bmc-switzerland.com/media/catalog/product/cache/db486834651b8299de17894045ea7cde/b/m/bmc-22-10503-008-bmc-fourstroke-01-one-mountain-bike-red-01.png" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fugit laboriosam amet in necessitatibus ipsa assumenda corrupti dolorem. Modi voluptate delectus, nihil iure ipsum aperiam eveniet, esse sint, corrupti porro
                             exercitationem tempora? Quidem iure, sapiente similique aspernatur animi dolorum illo expedita officia in, a non? Ratione autem, ducimus iusto non quo, facere unde, enim et deserunt dolorum assumenda natus cum magnam labore
                             vero quae provident expedita alias sint itaque libero nemo! Iste, nostrum delectus beatae nesciunt ullam possimus tenetur sequi.</p>
@@ -84,14 +82,12 @@ include('header.php')
                 </div>
             </div>
             <div class="produit">
-                <img src="https://www.bmc-switzerland.com/media/catalog/product/cache/db486834651b8299de17894045ea7cde/b/m/bmc-22-10503-011-bmc-fourstroke-01-lt-two-mountain-bike-brown-01.png" alt="">
                 <a href="#popup" class="button">En savoir +</a>
 
                 <div id="popup" class="overlay">
                     <div class="popup">
                         <h2>Nom produit</h2>
                         <a href="#" class="cross">&times;</a>
-                        <img src="https://www.bmc-switzerland.com/media/catalog/product/cache/db486834651b8299de17894045ea7cde/b/m/bmc-22-10503-011-bmc-fourstroke-01-lt-two-mountain-bike-brown-01.png" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fugit laboriosam amet in necessitatibus ipsa assumenda corrupti dolorem. Modi voluptate delectus, nihil iure ipsum aperiam eveniet, esse sint, corrupti porro
                             exercitationem tempora? Quidem iure, sapiente similique aspernatur animi dolorum illo expedita officia in, a non? Ratione autem, ducimus iusto non quo, facere unde, enim et deserunt dolorum assumenda natus cum magnam labore
                             vero quae provident expedita alias sint itaque libero nemo! Iste, nostrum delectus beatae nesciunt ullam possimus tenetur sequi.</p>
@@ -99,7 +95,6 @@ include('header.php')
                 </div>
             </div>
             <div class="produit">
-                <img src="https://www.bmc-switzerland.com/media/catalog/product/cache/db486834651b8299de17894045ea7cde/b/m/bmc-22-10503-010-bmc-fourstroke-01-lt-one-mountain-bike-green-01.png" alt="">
                 <a href="#popup" class="button">En savoir +</a>
 
                 <div id="popup" class="overlay">
@@ -311,7 +306,7 @@ include('header.php')
       }
       function hidePopup() {
         numPersonnes = parseInt(document.getElementById("num-personnes").value);
-        // Faites quelque chose avec le nombre de personnes sélectionné ici, comme le stocker dans une variable ou l'envoyer à votre serveur.
+        // Faire quelque chose avec le nombre de personnes sélectionné ici, comme le stocker dans une variable ou l'envoyer à votre serveur.
         document.getElementById("popup").style.display = "none";
       }
       function increment() {
