@@ -153,7 +153,7 @@ body.nav-active {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #2ECBF6;
+    background-color: #68dcfc;
     padding-block: 24px;
     z-index: 4;
     transition: var(--transition-1);

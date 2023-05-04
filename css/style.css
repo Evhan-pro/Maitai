@@ -29,11 +29,17 @@ body {
 
 /* Début Page */
 
-.page {
+#plongee {
+    padding-top: 15%;
+}
+
+.page_plongee,
+.page_gonflage {
     padding-top: 20%;
 }
 
-.page .ligne {
+.page_plongee .ligne,
+.page_gonflage .ligne {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,6 +52,20 @@ body {
     width: 25%;
     font-family: Arial, Helvetica;
 }
+
+
+/* Début couleurs pages */
+
+.page_plongee {
+    background: #9be8fd;
+}
+
+.page_gonflage {
+    background: #ecf9ff;
+}
+
+
+/* Fin couleurs pages */
 
 
 /* Bouton plongée*/
@@ -95,6 +115,15 @@ body {
 
 #popup {
     display: none;
+}
+
+#popup2 {
+    display: none;
+}
+
+.popup-content {
+    text-align: center;
+    margin-left: 15%;
 }
 
 
